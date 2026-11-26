@@ -23,7 +23,7 @@
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .up { opacity: 1; } .line { transform: none; } }
   </style>
   <rect id="panel" width="1200" height="90" rx="16" fill="#0d1117"/>
-  <text class="up mono" x="40" y="40" font-size="15" font-weight="700" fill="#34A853" letter-spacing="2">03 //</text>
+  <text class="up mono" x="40" y="40" font-size="15" font-weight="700" fill="#34A853" letter-spacing="2">04 //</text>
   <text class="up sans" x="102" y="42" font-size="28" font-weight="800" fill="#ffffff">Activity</text>
   <text class="up up2 mono" x="40" y="70" font-size="13" fill="#8b949e">live from GitHub · refreshed daily</text>
   <circle class="dot" cx="1160" cy="34" r="5" fill="#34A853"/>
