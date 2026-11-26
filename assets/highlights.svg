@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="2x ICPC Honorable Mention, Top 4 Google Hackathon, first-author research paper, 10+ hackathons and contests">
+  <title>Highlights</title>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .tile { opacity: 0; animation: up .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .t2 { animation-delay: .15s; } .t3 { animation-delay: .3s; } .t4 { animation-delay: .45s; }
+    .accent { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow .9s ease-out forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+    .a1 { animation-delay: .5s; } .a2 { animation-delay: .65s; } .a3 { animation-delay: .8s; } .a4 { animation-delay: .95s; }
+    .glint { opacity: 0; animation: glint 6s ease-in-out infinite; }
+    @keyframes glint { 0%, 70%, 100% { opacity: 0; } 80% { opacity: .12; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .tile { opacity: 1; } .accent { transform: none; } .glint { opacity: 0; }
+    }
+  </style>
+
+  <!-- Tile 1 -->
+  <g class="tile">
+    <rect x="30" y="10" width="270" height="150" rx="18" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+    <rect class="glint" x="30" y="10" width="270" height="150" rx="18" fill="#4285F4"/>
+    <rect class="accent a1" x="54" y="30" width="44" height="4" rx="2" fill="#4285F4"/>
+    <text class="sans" x="54" y="92" font-size="46" font-weight="800" fill="#4285F4">2×</text>
+    <text class="sans" x="54" y="122" font-size="16" font-weight="600" fill="#ffffff">ICPC Honorable Mention</text>
+    <text class="sans" x="54" y="143" font-size="13" fill="#8b949e">National &amp; Southern · 2025</text>
+  </g>
+
+  <!-- Tile 2 -->
+  <g class="tile t2">
+    <rect x="320" y="10" width="270" height="150" rx="18" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+    <rect class="glint" x="320" y="10" width="270" height="150" rx="18" fill="#EA4335" style="animation-delay:1.5s"/>
+    <rect class="accent a2" x="344" y="30" width="44" height="4" rx="2" fill="#EA4335"/>
+    <text class="sans" x="344" y="92" font-size="46" font-weight="800" fill="#EA4335">Top 4</text>
+    <text class="sans" x="344" y="122" font-size="16" font-weight="600" fill="#ffffff">Google Hackathon</text>
+    <text class="sans" x="344" y="143" font-size="13" fill="#8b949e">on Campus</text>
+  </g>
+
+  <!-- Tile 3 -->
+  <g class="tile t3">
+    <rect x="610" y="10" width="270" height="150" rx="18" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+    <rect class="glint" x="610" y="10" width="270" height="150" rx="18" fill="#FBBC05" style="animation-delay:3s"/>
+    <rect class="accent a3" x="634" y="30" width="44" height="4" rx="2" fill="#FBBC05"/>
+    <text class="sans" x="634" y="92" font-size="46" font-weight="800" fill="#FBBC05">1st</text>
+    <text class="sans" x="634" y="122" font-size="16" font-weight="600" fill="#ffffff">Author · Research Paper</text>
+    <text class="sans" x="634" y="143" font-size="13" fill="#8b949e">Edge-Cloud Split Inference</text>
+  </g>
+
+  <!-- Tile 4 -->
+  <g class="tile t4">
+    <rect x="900" y="10" width="270" height="150" rx="18" fill="#0d1117" stroke="#21262d" stroke-width="1.5"/>
+    <rect class="glint" x="900" y="10" width="270" height="150" rx="18" fill="#34A853" style="animation-delay:4.5s"/>
+    <rect class="accent a4" x="924" y="30" width="44" height="4" rx="2" fill="#34A853"/>
+    <text class="sans" x="924" y="92" font-size="46" font-weight="800" fill="#34A853">10+</text>
+    <text class="sans" x="924" y="122" font-size="16" font-weight="600" fill="#ffffff">Hackathons &amp; Contests</text>
+    <text class="sans" x="924" y="143" font-size="13" fill="#8b949e">2025 – 2026</text>
+  </g>
+</svg>

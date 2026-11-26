@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Võ Trần Ngọc Hữu — Lead at Google Developer Groups on Campus FPTU, Junior AI Engineer at FPT Software HCM F-Town 3">
+  <title>Võ Trần Ngọc Hữu</title>
+  <defs>
+    <clipPath id="card"><rect width="1200" height="440" rx="24"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#ffffff"/></pattern>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9ec2ff"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4285F4"/><stop offset=".25" stop-color="#4285F4"/>
+      <stop offset=".25" stop-color="#EA4335"/><stop offset=".5" stop-color="#EA4335"/>
+      <stop offset=".5" stop-color="#FBBC05"/><stop offset=".75" stop-color="#FBBC05"/>
+      <stop offset=".75" stop-color="#34A853"/><stop offset="1" stop-color="#34A853"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .blob { animation: drift 18s ease-in-out infinite alternate; }
+    .b2 { animation-duration: 22s; animation-delay: -6s; }
+    .b3 { animation-duration: 26s; animation-delay: -12s; }
+    .b4 { animation-duration: 20s; animation-delay: -3s; }
+    @keyframes drift {
+      0%   { transform: translate(0px, 0px); }
+      50%  { transform: translate(60px, -40px); }
+      100% { transform: translate(-50px, 30px); }
+    }
+    .up { opacity: 0; animation: up .8s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes up { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .d1 { animation-delay: .15s; } .d2 { animation-delay: .45s; } .d3 { animation-delay: .75s; }
+    .d4 { animation-delay: 1.9s; } .d5 { animation-delay: 2.1s; } .d6 { animation-delay: 2.4s; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .spin  { transform-origin: 975px 205px; animation: spin 14s linear infinite; }
+    .spin2 { transform-origin: 975px 205px; animation: spin 22s linear infinite reverse; }
+    .spin3 { transform-origin: 975px 205px; animation: spin 9s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .glow { transform-origin: 975px 205px; animation: pulse 3.2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: .35; transform: scale(1); } 50% { opacity: .7; transform: scale(1.08); } }
+    .live { transform-box: fill-box; transform-origin: center; animation: ring 2s ease-out infinite; }
+    @keyframes ring { from { opacity: .8; transform: scale(1); } to { opacity: 0; transform: scale(2.6); } }
+    .sweep { animation: sweep 3.5s ease-in-out infinite; }
+    @keyframes sweep { from { transform: translateX(-260px); } to { transform: translateX(1200px); } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .up { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#card)">
+    <!-- Background -->
+    <rect width="1200" height="440" fill="#0d1117"/>
+    <g filter="url(#blur)" opacity=".38">
+      <circle class="blob"    cx="170"  cy="90"  r="170" fill="#4285F4"/>
+      <circle class="blob b2" cx="1080" cy="70"  r="150" fill="#EA4335"/>
+      <circle class="blob b3" cx="820"  cy="420" r="170" fill="#FBBC05"/>
+      <circle class="blob b4" cx="420"  cy="460" r="150" fill="#34A853"/>
+    </g>
+    <rect width="1200" height="440" fill="url(#dots)" opacity=".05"/>
+
+    <!-- Terminal prompt -->
+    <g class="up mono" font-size="17">
+      <text x="64" y="78" fill="#8b949e">~/votranngochuu <tspan fill="#34A853">$</tspan> <tspan fill="#c9d1d9">whoami</tspan></text>
+      <rect class="cursor" x="296" y="63" width="10" height="19" fill="#4285F4"/>
+    </g>
+
+    <!-- Name -->
+    <text class="up d1 sans" x="60" y="162" font-size="68" font-weight="800" fill="url(#name)" letter-spacing="-1">Võ Trần Ngọc Hữu</text>
+
+    <!-- Tagline: three beats -->
+    <text class="up d3 sans" x="64" y="214" font-size="27" font-weight="600" fill="#c9d1d9"><tspan fill="#4285F4">Lead people.</tspan> <tspan fill="#ffffff">Ship systems.</tspan> <tspan fill="#FBBC05">Prove it in numbers.</tspan></text>
+
+    <!-- Role chip 1: GDG Lead -->
+    <g class="up d4">
+      <rect x="62" y="252" width="520" height="46" rx="23" fill="#4285F4" fill-opacity=".14" stroke="#4285F4" stroke-opacity=".55"/>
+      <circle cx="88" cy="275" r="5" fill="#4285F4"/>
+      <text class="mono" x="104" y="281" font-size="15" font-weight="700" fill="#4285F4" letter-spacing="2">LEAD</text>
+      <text class="sans" x="162" y="281" font-size="17" fill="#ffffff">Google Developer Groups on Campus · FPTU</text>
+    </g>
+
+    <!-- Role chip 2: FPT Software Junior -->
+    <g class="up d5">
+      <rect x="62" y="310" width="520" height="46" rx="23" fill="#F27024" fill-opacity=".14" stroke="#F27024" stroke-opacity=".6"/>
+      <circle class="live" cx="88" cy="333" r="5" fill="#34A853"/>
+      <circle cx="88" cy="333" r="5" fill="#34A853"/>
+      <text class="mono" x="104" y="339" font-size="15" font-weight="700" fill="#F27024" letter-spacing="2">JUNIOR</text>
+      <text class="sans" x="182" y="339" font-size="17" fill="#ffffff">AI Engineer · FPT Software HCM · F-Town 3</text>
+    </g>
+
+    <!-- Footer line -->
+    <text class="up d6 mono" x="64" y="398" font-size="14" fill="#8b949e">Java · Spring Boot · RAG · Edge-Cloud AI   ·   Ho Chi Minh City, Vietnam</text>
+
+    <!-- Orbit graphic -->
+    <g class="up d2">
+      <circle class="glow" cx="975" cy="205" r="62" fill="#4285F4" fill-opacity=".18"/>
+      <circle cx="975" cy="205" r="150" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+      <circle cx="975" cy="205" r="108" fill="none" stroke="#ffffff" stroke-opacity=".10" stroke-dasharray="4 8"/>
+      <circle cx="975" cy="205" r="66"  fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+      <g class="spin"><circle cx="1125" cy="205" r="9" fill="#4285F4"/><circle cx="825" cy="205" r="6" fill="#EA4335"/></g>
+      <g class="spin2"><circle cx="975" cy="97" r="8" fill="#FBBC05"/><circle cx="975" cy="313" r="5" fill="#4285F4" fill-opacity=".8"/></g>
+      <g class="spin3"><circle cx="1041" cy="205" r="6" fill="#34A853"/></g>
+      <text class="mono" x="975" y="219" font-size="40" font-weight="700" fill="#ffffff" text-anchor="middle">&lt;/&gt;</text>
+    </g>
+
+    <!-- Google colour bar with shine -->
+    <rect x="0" y="434" width="1200" height="6" fill="url(#bar)"/>
+    <rect class="sweep" x="0" y="434" width="260" height="6" fill="url(#shine)" opacity=".7"/>
+  </g>
+</svg>
