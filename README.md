@@ -1,4 +1,8 @@
 <a href="https://votranngochuu.github.io">
+  <img src="./assets/enter.svg" width="100%" alt="Opening portfolio… Click to enter votranngochuu.github.io" />
+</a>
+
+<a href="https://votranngochuu.github.io">
   <img src="./assets/hero.svg" width="100%" alt="Võ Trần Ngọc Hữu — Lead at Google Developer Groups on Campus FPTU · Junior AI Engineer at FPT Software HCM, F-Town 3" />
 </a>
 
