@@ -40,6 +40,10 @@
   <a href="https://github.com/votranngochuu?tab=repositories"><img src="./assets/projects/p6-more.svg" width="49%" alt="More on GitHub" /></a>
 </p>
 
+<img src="./assets/sections/arenas.svg" width="100%" alt="Hackathons & Contests Joined" />
+
+<img src="./assets/hackathons.svg" width="100%" alt="ICPC Vietnam Honorable Mention ×2 · Google Hackathon on Campus Top 4 · also competed in Bach Khoa Code Challenge, Zalo AI Challenge, DENSO, RMIT, SEAL, Swinburne, MoMo, NVIDIA Jetson AI Racer, Netcompany and FPT Talent Code Contest" />
+
 <img src="./assets/sections/stack.svg" width="100%" alt="Tech Stack" />
 
 <p align="center">
