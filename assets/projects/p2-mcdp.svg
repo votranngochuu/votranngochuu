@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-labelledby="t d">
+  <title id="t">MC-DP Split Inference</title>
+  <desc id="d">MC-DP Split Inference: Edge-cloud DNN partitioning that never runs out of memory. 100% feasible, 75 configs, baseline: 20% OOM. PyTorch · Dynamic Programming · ResNet · MobileNetV2.</desc>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox" gradientTransform="rotate(60 .5 .5)">
+      <stop offset="0" stop-color="#4285F4"/>
+      <stop offset=".34" stop-color="#EA4335"/>
+      <stop offset=".67" stop-color="#FBBC05"/>
+      <stop offset="1" stop-color="#34A853"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="60 .5 .5" to="420 .5 .5" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r=".75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#FBBC05" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#FBBC05" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect x="2" y="2" width="596" height="206" rx="19"/>
+    </clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .title { font-size: 26px; font-weight: 700; fill: #ffffff; }
+    .desc { font-size: 15px; fill: #c9d1d9; }
+    .tag { font-size: 12px; font-weight: 700; fill: #FBBC05; letter-spacing: 2px; }
+    .chip { font-size: 13px; fill: #FBBC05; }
+    .tech { font-size: 13px; fill: #8b949e; }
+    .go { font-size: 20px; fill: #8b949e; }
+    .f {
+      opacity: 1;
+      animation: fadeUp .6s ease-out both;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .pop {
+      opacity: 1;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: pop .5s cubic-bezier(.2, .8, .3, 1.15) both;
+    }
+    @keyframes pop {
+      from { opacity: 0; transform: scale(.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .nudge { animation: nudge 2.4s ease-in-out infinite; }
+    @keyframes nudge {
+      0%, 60%, 100% { transform: translate(0, 0); }
+      30% { transform: translate(3px, -3px); }
+    }
+    .sa { animation: snowA 10s linear infinite; }
+    .sb { animation: snowB 10s linear infinite; }
+    @keyframes snowA {
+      0% { transform: translate(0, -10px); }
+      30% { transform: translate(12px, 59px); }
+      60% { transform: translate(6px, 128px); }
+      100% { transform: translate(20px, 220px); }
+    }
+    @keyframes snowB {
+      0% { transform: translate(0, -10px); }
+      30% { transform: translate(-12px, 59px); }
+      60% { transform: translate(-6px, 128px); }
+      100% { transform: translate(-20px, 220px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .f, .pop { opacity: 1; transform: none; }
+      .snow { display: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="598" height="208" rx="20" fill="#0d1117" stroke="url(#border)" stroke-width="2"/>
+  <rect x="2" y="2" width="596" height="206" rx="19" fill="url(#glow)"/>
+
+  <!-- snow -->
+  <g class="snow" clip-path="url(#clip)" fill="#ffffff">
+    <circle class="sa" cx="31.0" cy="0" r="1.0" opacity="0.26" style="animation-duration:14.0s;animation-delay:-2.6s"/>
+    <circle class="sb" cx="50.9" cy="0" r="1.7" opacity="0.44" style="animation-duration:13.1s;animation-delay:-3.0s"/>
+    <circle class="sa" cx="111.0" cy="0" r="1.2" opacity="0.58" style="animation-duration:13.5s;animation-delay:-9.3s"/>
+    <circle class="sb" cx="150.2" cy="0" r="1.8" opacity="0.28" style="animation-duration:13.1s;animation-delay:-7.7s"/>
+    <circle class="sa" cx="175.5" cy="0" r="1.1" opacity="0.72" style="animation-duration:10.7s;animation-delay:-10.0s"/>
+    <circle class="sb" cx="226.6" cy="0" r="2.1" opacity="0.56" style="animation-duration:11.6s;animation-delay:-7.1s"/>
+    <circle class="sa" cx="254.2" cy="0" r="2.1" opacity="0.42" style="animation-duration:12.2s;animation-delay:-11.6s"/>
+    <circle class="sb" cx="303.6" cy="0" r="1.0" opacity="0.7" style="animation-duration:11.3s;animation-delay:-2.1s"/>
+    <circle class="sa" cx="329.2" cy="0" r="1.5" opacity="0.27" style="animation-duration:13.4s;animation-delay:-6.8s"/>
+    <circle class="sb" cx="380.4" cy="0" r="1.4" opacity="0.61" style="animation-duration:13.3s;animation-delay:-4.1s"/>
+    <circle class="sa" cx="417.0" cy="0" r="1.6" opacity="0.41" style="animation-duration:10.8s;animation-delay:-5.9s"/>
+    <circle class="sb" cx="458.4" cy="0" r="1.7" opacity="0.54" style="animation-duration:6.7s;animation-delay:-6.7s"/>
+    <circle class="sa" cx="496.5" cy="0" r="1.4" opacity="0.47" style="animation-duration:13.4s;animation-delay:-12.8s"/>
+    <circle class="sb" cx="540.3" cy="0" r="1.4" opacity="0.3" style="animation-duration:13.2s;animation-delay:-2.3s"/>
+  </g>
+
+  <!-- header: tag + link glyph -->
+  <g class="f" style="animation-delay:0.15s">
+    <rect x="26" y="26" width="185" height="28" rx="14" fill="#FBBC05" fill-opacity=".15"/>
+    <text x="118.5" y="44.5" text-anchor="middle" class="mono tag">PAPER · 1ST AUTHOR</text>
+    <g class="nudge"><text x="574" y="47" text-anchor="end" class="sans go">↗</text></g>
+  </g>
+
+  <!-- title + description -->
+  <text x="26" y="88" class="sans title f" style="animation-delay:0.27s">MC-DP Split Inference</text>
+  <text x="26" y="113" class="sans desc f" style="animation-delay:0.39s">Edge-cloud DNN partitioning that never runs out of memory</text>
+
+  <!-- proof chips -->
+  <g>
+    <g class="pop" style="animation-delay:0.51s">
+      <rect x="26" y="128" width="128" height="28" rx="12" fill="#FBBC05" fill-opacity=".1" stroke="#FBBC05" stroke-opacity=".35" stroke-width="1"/>
+      <text x="90" y="146.5" text-anchor="middle" class="mono chip">100% feasible</text>
+    </g>
+    <g class="pop" style="animation-delay:0.63s">
+      <rect x="164" y="128" width="104" height="28" rx="12" fill="#FBBC05" fill-opacity=".1" stroke="#FBBC05" stroke-opacity=".35" stroke-width="1"/>
+      <text x="216" y="146.5" text-anchor="middle" class="mono chip">75 configs</text>
+    </g>
+    <g class="pop" style="animation-delay:0.75s">
+      <rect x="278" y="128" width="160" height="28" rx="12" fill="#FBBC05" fill-opacity=".1" stroke="#FBBC05" stroke-opacity=".35" stroke-width="1"/>
+      <text x="358" y="146.5" text-anchor="middle" class="mono chip">baseline: 20% OOM</text>
+    </g>
+  </g>
+
+  <!-- tech -->
+  <text x="26" y="183" class="sans tech f" style="animation-delay:0.87s">PyTorch · Dynamic Programming · ResNet · MobileNetV2</text>
+</svg>

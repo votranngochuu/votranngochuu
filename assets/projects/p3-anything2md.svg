@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-labelledby="t d">
+  <title id="t">Anything2MD</title>
+  <desc id="d">Anything2MD: Any document → RAG-ready Markdown. cost-gated AI, zero-egress mode, queue-decoupled. Node.js · Fastify · Python · Nuxt 4 · Azure.</desc>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox" gradientTransform="rotate(120 .5 .5)">
+      <stop offset="0" stop-color="#4285F4"/>
+      <stop offset=".34" stop-color="#EA4335"/>
+      <stop offset=".67" stop-color="#FBBC05"/>
+      <stop offset="1" stop-color="#34A853"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="120 .5 .5" to="480 .5 .5" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r=".75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#F27024" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#F27024" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect x="2" y="2" width="596" height="206" rx="19"/>
+    </clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .title { font-size: 26px; font-weight: 700; fill: #ffffff; }
+    .desc { font-size: 15px; fill: #c9d1d9; }
+    .tag { font-size: 12px; font-weight: 700; fill: #F27024; letter-spacing: 2px; }
+    .chip { font-size: 13px; fill: #F27024; }
+    .tech { font-size: 13px; fill: #8b949e; }
+    .go { font-size: 20px; fill: #8b949e; }
+    .f {
+      opacity: 1;
+      animation: fadeUp .6s ease-out both;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .pop {
+      opacity: 1;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: pop .5s cubic-bezier(.2, .8, .3, 1.15) both;
+    }
+    @keyframes pop {
+      from { opacity: 0; transform: scale(.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .nudge { animation: nudge 2.4s ease-in-out infinite; }
+    @keyframes nudge {
+      0%, 60%, 100% { transform: translate(0, 0); }
+      30% { transform: translate(3px, -3px); }
+    }
+    .sa { animation: snowA 10s linear infinite; }
+    .sb { animation: snowB 10s linear infinite; }
+    @keyframes snowA {
+      0% { transform: translate(0, -10px); }
+      30% { transform: translate(12px, 59px); }
+      60% { transform: translate(6px, 128px); }
+      100% { transform: translate(20px, 220px); }
+    }
+    @keyframes snowB {
+      0% { transform: translate(0, -10px); }
+      30% { transform: translate(-12px, 59px); }
+      60% { transform: translate(-6px, 128px); }
+      100% { transform: translate(-20px, 220px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .f, .pop { opacity: 1; transform: none; }
+      .snow { display: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="598" height="208" rx="20" fill="#0d1117" stroke="url(#border)" stroke-width="2"/>
+  <rect x="2" y="2" width="596" height="206" rx="19" fill="url(#glow)"/>
+
+  <!-- snow -->
+  <g class="snow" clip-path="url(#clip)" fill="#ffffff">
+    <circle class="sa" cx="21.7" cy="0" r="1.7" opacity="0.7" style="animation-duration:8.2s;animation-delay:-5.3s"/>
+    <circle class="sb" cx="69.4" cy="0" r="2.1" opacity="0.35" style="animation-duration:11.2s;animation-delay:-6.9s"/>
+    <circle class="sa" cx="100.1" cy="0" r="2.2" opacity="0.54" style="animation-duration:9.6s;animation-delay:-9.1s"/>
+    <circle class="sb" cx="143.3" cy="0" r="1.2" opacity="0.42" style="animation-duration:10.0s;animation-delay:-0.5s"/>
+    <circle class="sa" cx="182.6" cy="0" r="1.8" opacity="0.48" style="animation-duration:12.8s;animation-delay:-11.9s"/>
+    <circle class="sb" cx="221.3" cy="0" r="1.8" opacity="0.31" style="animation-duration:6.4s;animation-delay:-6.3s"/>
+    <circle class="sa" cx="254.8" cy="0" r="1.1" opacity="0.74" style="animation-duration:12.0s;animation-delay:-1.5s"/>
+    <circle class="sb" cx="295.7" cy="0" r="1.1" opacity="0.4" style="animation-duration:6.1s;animation-delay:-3.2s"/>
+    <circle class="sa" cx="335.3" cy="0" r="1.4" opacity="0.35" style="animation-duration:6.9s;animation-delay:-0.2s"/>
+    <circle class="sb" cx="388.9" cy="0" r="1.8" opacity="0.56" style="animation-duration:7.0s;animation-delay:-1.0s"/>
+    <circle class="sa" cx="410.9" cy="0" r="1.2" opacity="0.28" style="animation-duration:8.2s;animation-delay:-1.7s"/>
+    <circle class="sb" cx="452.6" cy="0" r="1.7" opacity="0.5" style="animation-duration:9.8s;animation-delay:-3.5s"/>
+    <circle class="sa" cx="500.9" cy="0" r="1.9" opacity="0.42" style="animation-duration:6.6s;animation-delay:-3.2s"/>
+    <circle class="sb" cx="537.1" cy="0" r="1.9" opacity="0.31" style="animation-duration:13.0s;animation-delay:-0.2s"/>
+  </g>
+
+  <!-- header: tag + link glyph -->
+  <g class="f" style="animation-delay:0.15s">
+    <rect x="26" y="26" width="133" height="28" rx="14" fill="#F27024" fill-opacity=".15"/>
+    <text x="92.5" y="44.5" text-anchor="middle" class="mono tag">FPT SOFTWARE</text>
+    <g class="nudge"><text x="574" y="47" text-anchor="end" class="sans go">↗</text></g>
+  </g>
+
+  <!-- title + description -->
+  <text x="26" y="88" class="sans title f" style="animation-delay:0.27s">Anything2MD</text>
+  <text x="26" y="113" class="sans desc f" style="animation-delay:0.39s">Any document → RAG-ready Markdown</text>
+
+  <!-- proof chips -->
+  <g>
+    <g class="pop" style="animation-delay:0.51s">
+      <rect x="26" y="128" width="128" height="28" rx="12" fill="#F27024" fill-opacity=".1" stroke="#F27024" stroke-opacity=".35" stroke-width="1"/>
+      <text x="90" y="146.5" text-anchor="middle" class="mono chip">cost-gated AI</text>
+    </g>
+    <g class="pop" style="animation-delay:0.63s">
+      <rect x="164" y="128" width="152" height="28" rx="12" fill="#F27024" fill-opacity=".1" stroke="#F27024" stroke-opacity=".35" stroke-width="1"/>
+      <text x="240" y="146.5" text-anchor="middle" class="mono chip">zero-egress mode</text>
+    </g>
+    <g class="pop" style="animation-delay:0.75s">
+      <rect x="326" y="128" width="144" height="28" rx="12" fill="#F27024" fill-opacity=".1" stroke="#F27024" stroke-opacity=".35" stroke-width="1"/>
+      <text x="398" y="146.5" text-anchor="middle" class="mono chip">queue-decoupled</text>
+    </g>
+  </g>
+
+  <!-- tech -->
+  <text x="26" y="183" class="sans tech f" style="animation-delay:0.87s">Node.js · Fastify · Python · Nuxt 4 · Azure</text>
+</svg>

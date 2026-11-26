@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-labelledby="t d">
+  <title id="t">VeloX</title>
+  <desc id="d">VeloX: Sport-bike marketplace back-end · live demo. Java 21, Spring Security, JWT / OAuth2. Spring Boot · PostgreSQL · Maven · MapStruct.</desc>
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox" gradientTransform="rotate(240 .5 .5)">
+      <stop offset="0" stop-color="#4285F4"/>
+      <stop offset=".34" stop-color="#EA4335"/>
+      <stop offset=".67" stop-color="#FBBC05"/>
+      <stop offset="1" stop-color="#34A853"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="240 .5 .5" to="600 .5 .5" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r=".75" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#EA4335" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#EA4335" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clip">
+      <rect x="2" y="2" width="596" height="206" rx="19"/>
+    </clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .title { font-size: 26px; font-weight: 700; fill: #ffffff; }
+    .desc { font-size: 15px; fill: #c9d1d9; }
+    .tag { font-size: 12px; font-weight: 700; fill: #EA4335; letter-spacing: 2px; }
+    .chip { font-size: 13px; fill: #EA4335; }
+    .tech { font-size: 13px; fill: #8b949e; }
+    .go { font-size: 20px; fill: #8b949e; }
+    .f {
+      opacity: 1;
+      animation: fadeUp .6s ease-out both;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .pop {
+      opacity: 1;
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: pop .5s cubic-bezier(.2, .8, .3, 1.15) both;
+    }
+    @keyframes pop {
+      from { opacity: 0; transform: scale(.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .nudge { animation: nudge 2.4s ease-in-out infinite; }
+    @keyframes nudge {
+      0%, 60%, 100% { transform: translate(0, 0); }
+      30% { transform: translate(3px, -3px); }
+    }
+    .sa { animation: snowA 10s linear infinite; }
+    .sb { animation: snowB 10s linear infinite; }
+    @keyframes snowA {
+      0% { transform: translate(0, -10px); }
+      30% { transform: translate(12px, 59px); }
+      60% { transform: translate(6px, 128px); }
+      100% { transform: translate(20px, 220px); }
+    }
+    @keyframes snowB {
+      0% { transform: translate(0, -10px); }
+      30% { transform: translate(-12px, 59px); }
+      60% { transform: translate(-6px, 128px); }
+      100% { transform: translate(-20px, 220px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .f, .pop { opacity: 1; transform: none; }
+      .snow { display: none; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="1" y="1" width="598" height="208" rx="20" fill="#0d1117" stroke="url(#border)" stroke-width="2"/>
+  <rect x="2" y="2" width="596" height="206" rx="19" fill="url(#glow)"/>
+
+  <!-- snow -->
+  <g class="snow" clip-path="url(#clip)" fill="#ffffff">
+    <circle class="sa" cx="10.2" cy="0" r="2.1" opacity="0.33" style="animation-duration:11.9s;animation-delay:-10.0s"/>
+    <circle class="sb" cx="65.9" cy="0" r="1.2" opacity="0.44" style="animation-duration:11.8s;animation-delay:-11.4s"/>
+    <circle class="sa" cx="103.9" cy="0" r="1.6" opacity="0.46" style="animation-duration:9.2s;animation-delay:-6.6s"/>
+    <circle class="sb" cx="138.3" cy="0" r="1.5" opacity="0.6" style="animation-duration:11.1s;animation-delay:-0.5s"/>
+    <circle class="sa" cx="173.5" cy="0" r="1.8" opacity="0.56" style="animation-duration:12.7s;animation-delay:-0.7s"/>
+    <circle class="sb" cx="213.6" cy="0" r="1.5" opacity="0.66" style="animation-duration:7.6s;animation-delay:-5.8s"/>
+    <circle class="sa" cx="257.8" cy="0" r="1.2" opacity="0.71" style="animation-duration:6.9s;animation-delay:-6.4s"/>
+    <circle class="sb" cx="295.5" cy="0" r="1.3" opacity="0.36" style="animation-duration:9.7s;animation-delay:-8.2s"/>
+    <circle class="sa" cx="333.3" cy="0" r="1.6" opacity="0.49" style="animation-duration:8.4s;animation-delay:-1.1s"/>
+    <circle class="sb" cx="384.7" cy="0" r="1.4" opacity="0.51" style="animation-duration:10.8s;animation-delay:-1.2s"/>
+    <circle class="sa" cx="427.6" cy="0" r="2.0" opacity="0.39" style="animation-duration:12.5s;animation-delay:-8.7s"/>
+    <circle class="sb" cx="455.2" cy="0" r="1.2" opacity="0.3" style="animation-duration:9.3s;animation-delay:-4.2s"/>
+    <circle class="sa" cx="499.7" cy="0" r="1.5" opacity="0.55" style="animation-duration:7.0s;animation-delay:-1.6s"/>
+    <circle class="sb" cx="541.4" cy="0" r="1.5" opacity="0.35" style="animation-duration:8.2s;animation-delay:-8.0s"/>
+  </g>
+
+  <!-- header: tag + link glyph -->
+  <g class="f" style="animation-delay:0.15s">
+    <rect x="26" y="26" width="125" height="28" rx="14" fill="#EA4335" fill-opacity=".15"/>
+    <text x="88.5" y="44.5" text-anchor="middle" class="mono tag">MARKETPLACE</text>
+    <g class="nudge"><text x="574" y="47" text-anchor="end" class="sans go">↗</text></g>
+  </g>
+
+  <!-- title + description -->
+  <text x="26" y="88" class="sans title f" style="animation-delay:0.27s">VeloX</text>
+  <text x="26" y="113" class="sans desc f" style="animation-delay:0.39s">Sport-bike marketplace back-end · live demo</text>
+
+  <!-- proof chips -->
+  <g>
+    <g class="pop" style="animation-delay:0.51s">
+      <rect x="26" y="128" width="80" height="28" rx="12" fill="#EA4335" fill-opacity=".1" stroke="#EA4335" stroke-opacity=".35" stroke-width="1"/>
+      <text x="66" y="146.5" text-anchor="middle" class="mono chip">Java 21</text>
+    </g>
+    <g class="pop" style="animation-delay:0.63s">
+      <rect x="116" y="128" width="144" height="28" rx="12" fill="#EA4335" fill-opacity=".1" stroke="#EA4335" stroke-opacity=".35" stroke-width="1"/>
+      <text x="188" y="146.5" text-anchor="middle" class="mono chip">Spring Security</text>
+    </g>
+    <g class="pop" style="animation-delay:0.75s">
+      <rect x="270" y="128" width="120" height="28" rx="12" fill="#EA4335" fill-opacity=".1" stroke="#EA4335" stroke-opacity=".35" stroke-width="1"/>
+      <text x="330" y="146.5" text-anchor="middle" class="mono chip">JWT / OAuth2</text>
+    </g>
+  </g>
+
+  <!-- tech -->
+  <text x="26" y="183" class="sans tech f" style="animation-delay:0.87s">Spring Boot · PostgreSQL · Maven · MapStruct</text>
+</svg>
