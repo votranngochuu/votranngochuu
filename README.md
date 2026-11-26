@@ -12,39 +12,33 @@
   <img src="https://komarev.com/ghpvc/?username=votranngochuu&style=for-the-badge&color=34A853&label=VISITORS" alt="Visitors" />
 </p>
 
-<br/>
-
 <p align="center">
   <img src="./assets/card-gdg.svg" width="49%" alt="Lead — Google Developer Groups on Campus, FPT University" />
   <img src="./assets/card-fpt.svg" width="49%" alt="Junior AI Engineer — FPT Software HCM, F-Town 3" />
 </p>
 
-<p align="center">
-  <img src="./assets/highlights.svg" width="100%" alt="2× ICPC Honorable Mention · Top 4 Google Hackathon · First-author research paper · 10+ hackathons" />
-</p>
+<img src="./assets/highlights.svg" width="100%" alt="2× ICPC Honorable Mention · Top 4 Google Hackathon · First-author research paper · 10+ hackathons" />
 
-<h3 align="center">⚡ Selected Work</h3>
-
-| | Project | In one line | Proof |
-| :---: | :--- | :--- | :--- |
-| 🔎 | [**FlashFind-Vi**](https://github.com/votranngochuu/FlashFind-Vi) · *research lead* | On-device Vietnamese OCR search | `2.5× QPS` · `p95 < 500 ms` · `−30–40% RAM` |
-| 🧩 | **MC-DP** · *first-author paper* | Split inference that never runs out of memory | `100% feasible` vs `20% OOM` baseline |
-| 📄 | **Anything2MD** · *FPT Software* | Any document → RAG-ready Markdown | `cost-gated AI` · `zero-egress mode` |
-| 🏅 | [**Member Ranking**](https://github.com/votranngochuu/member-ranking-management) · *GDGoC* | Club leaderboard with a Gemini agent | `function calling` · `JWT` · `Supabase` |
-| 🚲 | [**VeloX**](https://github.com/votranngochuu/sport-bike-exchange-be) · [*live*](https://sport-bike-exchange-fe.vercel.app) | Bike marketplace back-end | `Java 21` · `Spring Security` · `RBAC` |
-
-<h3 align="center">🧰 Stack</h3>
+<img src="./assets/sections/work.svg" width="100%" alt="Selected Work" />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,nodejs,react,vue,nuxtjs,postgres,supabase,mongodb,docker,aws,azure,gcp,git&perline=15&theme=dark" alt="Tech stack" />
+  <a href="https://github.com/votranngochuu/FlashFind-Vi"><img src="./assets/projects/p1-flashfind.svg" width="49%" alt="FlashFind-Vi — on-device Vietnamese OCR search" /></a>
+  <a href="./assets/projects/p2-mcdp.svg"><img src="./assets/projects/p2-mcdp.svg" width="49%" alt="MC-DP — first-author paper on memory-constrained split inference" /></a>
+  <a href="./assets/projects/p3-anything2md.svg"><img src="./assets/projects/p3-anything2md.svg" width="49%" alt="Anything2MD — FPT Software, any document to RAG-ready Markdown" /></a>
+  <a href="https://github.com/votranngochuu/member-ranking-management"><img src="./assets/projects/p4-member-ranking.svg" width="49%" alt="Member Ranking — GDGoC club leaderboard with a Gemini agent" /></a>
+  <a href="https://sport-bike-exchange-fe.vercel.app"><img src="./assets/projects/p5-velox.svg" width="49%" alt="VeloX — sport-bike marketplace back-end" /></a>
+  <a href="https://github.com/votranngochuu?tab=repositories"><img src="./assets/projects/p6-more.svg" width="49%" alt="More on GitHub" /></a>
 </p>
 
-<h3 align="center">📈 Activity</h3>
+<img src="./assets/sections/stack.svg" width="100%" alt="Tech Stack" />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=votranngochuu&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=4285F4&icon_color=34A853&text_color=c9d1d9&ring_color=FBBC05&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=votranngochuu&layout=compact&hide_border=true&bg_color=0d1117&title_color=4285F4&text_color=c9d1d9&langs_count=6" alt="Top languages" />
+  <img src="https://skillicons.dev/icons?i=java,spring,python,nodejs,react,vue,nuxtjs,postgres,supabase,mongodb,docker,aws,azure,gcp,git&perline=15&theme=dark" alt="Java, Spring, Python, Node.js, React, Vue, Nuxt, PostgreSQL, Supabase, MongoDB, Docker, AWS, Azure, GCP, Git" />
 </p>
+
+<img src="./assets/sections/activity.svg" width="100%" alt="Activity" />
+
+<img src="./assets/stats.svg" width="100%" alt="GitHub activity: commits, contributions, streaks, heatmap and top languages (refreshed daily)" />
 
 <p align="center">
   <picture>
