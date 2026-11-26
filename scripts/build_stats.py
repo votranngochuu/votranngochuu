@@ -17,6 +17,7 @@ import datetime as dt
 import json
 import os
 import random
+import re
 import sys
 import time
 import urllib.error
@@ -507,6 +508,16 @@ def render(stats: dict, last_year: dict, langs: list[dict]) -> str:
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
+def read_previous_commits() -> int | None:
+    """Return the commit total recorded in the current SVG, if any."""
+    try:
+        text = OUTPUT.read_text(encoding="utf-8")
+    except OSError:
+        return None
+    match = re.search(r"<!--stats:commits=(\d+)-->", text)
+    return int(match.group(1)) if match else None
+
+
 def main() -> int:
     token = os.environ.get("GITHUB_TOKEN", "").strip()
     login = os.environ.get("GH_USER", "").strip() or "votranngochuu"
@@ -545,7 +556,17 @@ def main() -> int:
         "updated": now.date().isoformat(),
     }
 
-    svg = render(stats, last_year, langs)
+    # Commit totals never shrink in reality. A big drop means this token sees less than
+    # the token that produced the current card (e.g. private profile or private repos),
+    # so keep the existing card instead of publishing misleading numbers.
+    previous = read_previous_commits()
+    if previous and stats["commits"] < previous * 0.9:
+        print(f"[stats] new total {stats['commits']} is far below the current {previous}; "
+              "keeping the existing SVG (add a STATS_TOKEN secret or enable private "
+              "contributions to refresh it).", file=sys.stderr)
+        return 0
+
+    svg = render(stats, last_year, langs) + f"<!--stats:commits={stats['commits']}-->\n"
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     tmp = OUTPUT.with_suffix(".svg.tmp")
     tmp.write_text(svg, encoding="utf-8", newline="\n")
