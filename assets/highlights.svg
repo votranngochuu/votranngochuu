@@ -55,4 +55,35 @@
     <text class="sans" x="924" y="122" font-size="16" font-weight="600" fill="#ffffff">Hackathons &amp; Contests</text>
     <text class="sans" x="924" y="143" font-size="13" fill="#8b949e">2025 – 2026</text>
   </g>
+
+  <!--snow:start--><style>
+    .s22a { animation: s22A linear infinite; }
+    .s22b { animation: s22B linear infinite; }
+    .s22g { animation: s22G linear infinite; }
+    @keyframes s22A { from { transform: translate(0px,-20px); } to { transform: translate(28px,190px); } }
+    @keyframes s22B { from { transform: translate(0px,-20px); } to { transform: translate(-28px,190px); } }
+    @keyframes s22G { from { transform: translate(0px,-30px) rotate(0deg); } to { transform: translate(18px,200px) rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .s22 { display: none; } }
+  </style>
+  <clipPath id="s22clip"><rect width="1200" height="170" rx="18"/></clipPath>
+  <g class="s22" clip-path="url(#s22clip)" fill="#ffffff" pointer-events="none">
+  <circle class="s22a" cx="1149.9" cy="0" r="1.02" opacity="0.26" style="animation-duration:11.5s;animation-delay:-2.1s"/>
+  <circle class="s22a" cx="887.5" cy="0" r="2.21" opacity="0.73" style="animation-duration:5.5s;animation-delay:-1.5s"/>
+  <circle class="s22a" cx="383.3" cy="0" r="1.76" opacity="0.81" style="animation-duration:9.4s;animation-delay:-8.7s"/>
+  <circle class="s22a" cx="692.6" cy="0" r="0.83" opacity="0.41" style="animation-duration:7.7s;animation-delay:-1.4s"/>
+  <circle class="s22b" cx="699.4" cy="0" r="2.30" opacity="0.71" style="animation-duration:11.2s;animation-delay:-6.4s"/>
+  <circle class="s22a" cx="734.8" cy="0" r="1.21" opacity="0.82" style="animation-duration:7.0s;animation-delay:-5.5s"/>
+  <circle class="s22a" cx="335.4" cy="0" r="1.23" opacity="0.67" style="animation-duration:7.8s;animation-delay:-2.7s"/>
+  <circle class="s22a" cx="503.3" cy="0" r="1.20" opacity="0.42" style="animation-duration:10.7s;animation-delay:-4.3s"/>
+  <circle class="s22b" cx="368.8" cy="0" r="1.40" opacity="0.60" style="animation-duration:6.9s;animation-delay:-4.1s"/>
+  <circle class="s22a" cx="909.1" cy="0" r="2.24" opacity="0.51" style="animation-duration:5.6s;animation-delay:-2.5s"/>
+  <circle class="s22b" cx="518.1" cy="0" r="1.44" opacity="0.81" style="animation-duration:11.2s;animation-delay:-5.7s"/>
+  <circle class="s22a" cx="8.1" cy="0" r="1.53" opacity="0.37" style="animation-duration:5.2s;animation-delay:-2.0s"/>
+  <circle class="s22a" cx="393.9" cy="0" r="1.37" opacity="0.36" style="animation-duration:5.3s;animation-delay:-2.8s"/>
+  <circle class="s22b" cx="786.7" cy="0" r="0.96" opacity="0.37" style="animation-duration:5.8s;animation-delay:-0.9s"/>
+  <circle class="s22b" cx="51.9" cy="0" r="0.99" opacity="0.67" style="animation-duration:5.9s;animation-delay:-1.7s"/>
+  <circle class="s22b" cx="571.4" cy="0" r="0.91" opacity="0.68" style="animation-duration:11.2s;animation-delay:-1.2s"/>
+  <g class="s22g" style="animation-duration:11.1s;animation-delay:-7.1s;transform-box:fill-box;transform-origin:center"><text x="1113.6" y="0" font-size="10.1" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s22g" style="animation-duration:12.4s;animation-delay:-5.4s;transform-box:fill-box;transform-origin:center"><text x="415.1" y="0" font-size="11.2" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  </g><!--snow:end-->
 </svg>

@@ -83,4 +83,35 @@
 
   <!-- footer -->
   <text x="572" y="272" text-anchor="end" class="mono foot f" style="animation-delay:1.4s">people &gt; code &gt; hype</text>
+
+  <!--snow:start--><style>
+    .s33a { animation: s33A linear infinite; }
+    .s33b { animation: s33B linear infinite; }
+    .s33g { animation: s33G linear infinite; }
+    @keyframes s33A { from { transform: translate(0px,-20px); } to { transform: translate(28px,320px); } }
+    @keyframes s33B { from { transform: translate(0px,-20px); } to { transform: translate(-28px,320px); } }
+    @keyframes s33G { from { transform: translate(0px,-30px) rotate(0deg); } to { transform: translate(18px,330px) rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .s33 { display: none; } }
+  </style>
+  <clipPath id="s33clip"><rect width="600" height="300" rx="20"/></clipPath>
+  <g class="s33" clip-path="url(#s33clip)" fill="#ffffff" pointer-events="none">
+  <circle class="s33a" cx="342.2" cy="0" r="1.81" opacity="0.74" style="animation-duration:8.3s;animation-delay:-5.4s"/>
+  <circle class="s33b" cx="587.5" cy="0" r="2.25" opacity="0.82" style="animation-duration:8.6s;animation-delay:-5.9s"/>
+  <circle class="s33b" cx="267.2" cy="0" r="2.31" opacity="0.63" style="animation-duration:8.5s;animation-delay:-2.6s"/>
+  <circle class="s33b" cx="539.3" cy="0" r="1.99" opacity="0.77" style="animation-duration:11.5s;animation-delay:-9.3s"/>
+  <circle class="s33b" cx="556.8" cy="0" r="1.69" opacity="0.66" style="animation-duration:7.0s;animation-delay:-0.4s"/>
+  <circle class="s33a" cx="597.1" cy="0" r="2.38" opacity="0.29" style="animation-duration:9.0s;animation-delay:-5.9s"/>
+  <circle class="s33b" cx="307.7" cy="0" r="1.31" opacity="0.46" style="animation-duration:11.3s;animation-delay:-6.3s"/>
+  <circle class="s33a" cx="111.3" cy="0" r="0.98" opacity="0.27" style="animation-duration:13.0s;animation-delay:-9.7s"/>
+  <circle class="s33b" cx="38.0" cy="0" r="0.95" opacity="0.73" style="animation-duration:6.1s;animation-delay:-2.5s"/>
+  <circle class="s33b" cx="121.7" cy="0" r="1.11" opacity="0.64" style="animation-duration:9.7s;animation-delay:-4.6s"/>
+  <circle class="s33b" cx="353.8" cy="0" r="1.53" opacity="0.77" style="animation-duration:9.9s;animation-delay:-0.1s"/>
+  <circle class="s33b" cx="227.5" cy="0" r="2.05" opacity="0.32" style="animation-duration:13.0s;animation-delay:-0.2s"/>
+  <circle class="s33b" cx="433.8" cy="0" r="2.20" opacity="0.76" style="animation-duration:12.9s;animation-delay:-11.8s"/>
+  <circle class="s33b" cx="20.1" cy="0" r="0.94" opacity="0.61" style="animation-duration:11.9s;animation-delay:-5.5s"/>
+  <circle class="s33b" cx="568.1" cy="0" r="1.45" opacity="0.53" style="animation-duration:11.0s;animation-delay:-8.3s"/>
+  <circle class="s33a" cx="12.3" cy="0" r="1.44" opacity="0.73" style="animation-duration:8.7s;animation-delay:-0.9s"/>
+  <g class="s33g" style="animation-duration:17.1s;animation-delay:-15.5s;transform-box:fill-box;transform-origin:center"><text x="532.4" y="0" font-size="12.2" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s33g" style="animation-duration:12.4s;animation-delay:-5.3s;transform-box:fill-box;transform-origin:center"><text x="116.6" y="0" font-size="15.1" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  </g><!--snow:end-->
 </svg>

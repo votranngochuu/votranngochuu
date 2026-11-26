@@ -98,4 +98,35 @@
 
   <!-- footer -->
   <text x="572" y="272" text-anchor="end" class="mono foot f" style="animation-delay:1.5s">ship · measure · repeat</text>
+
+  <!--snow:start--><style>
+    .s44a { animation: s44A linear infinite; }
+    .s44b { animation: s44B linear infinite; }
+    .s44g { animation: s44G linear infinite; }
+    @keyframes s44A { from { transform: translate(0px,-20px); } to { transform: translate(28px,320px); } }
+    @keyframes s44B { from { transform: translate(0px,-20px); } to { transform: translate(-28px,320px); } }
+    @keyframes s44G { from { transform: translate(0px,-30px) rotate(0deg); } to { transform: translate(18px,330px) rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .s44 { display: none; } }
+  </style>
+  <clipPath id="s44clip"><rect width="600" height="300" rx="20"/></clipPath>
+  <g class="s44" clip-path="url(#s44clip)" fill="#ffffff" pointer-events="none">
+  <circle class="s44a" cx="245.1" cy="0" r="1.67" opacity="0.77" style="animation-duration:7.5s;animation-delay:-1.7s"/>
+  <circle class="s44b" cx="134.8" cy="0" r="1.71" opacity="0.31" style="animation-duration:12.2s;animation-delay:-8.4s"/>
+  <circle class="s44a" cx="416.1" cy="0" r="1.41" opacity="0.49" style="animation-duration:11.6s;animation-delay:-3.8s"/>
+  <circle class="s44b" cx="203.3" cy="0" r="1.25" opacity="0.35" style="animation-duration:10.1s;animation-delay:-6.0s"/>
+  <circle class="s44b" cx="575.4" cy="0" r="0.97" opacity="0.63" style="animation-duration:13.8s;animation-delay:-0.5s"/>
+  <circle class="s44a" cx="57.5" cy="0" r="1.56" opacity="0.36" style="animation-duration:7.1s;animation-delay:-5.3s"/>
+  <circle class="s44b" cx="26.1" cy="0" r="2.34" opacity="0.66" style="animation-duration:11.7s;animation-delay:-8.6s"/>
+  <circle class="s44b" cx="221.7" cy="0" r="1.55" opacity="0.52" style="animation-duration:12.4s;animation-delay:-1.9s"/>
+  <circle class="s44a" cx="273.3" cy="0" r="2.07" opacity="0.66" style="animation-duration:8.8s;animation-delay:-7.2s"/>
+  <circle class="s44b" cx="166.8" cy="0" r="0.81" opacity="0.78" style="animation-duration:10.7s;animation-delay:-6.5s"/>
+  <circle class="s44a" cx="596.8" cy="0" r="1.37" opacity="0.37" style="animation-duration:7.0s;animation-delay:-2.4s"/>
+  <circle class="s44a" cx="364.0" cy="0" r="0.89" opacity="0.51" style="animation-duration:6.5s;animation-delay:-4.0s"/>
+  <circle class="s44a" cx="85.6" cy="0" r="2.29" opacity="0.69" style="animation-duration:6.2s;animation-delay:-4.0s"/>
+  <circle class="s44a" cx="163.2" cy="0" r="0.81" opacity="0.41" style="animation-duration:11.5s;animation-delay:-7.2s"/>
+  <circle class="s44a" cx="514.8" cy="0" r="2.37" opacity="0.29" style="animation-duration:9.9s;animation-delay:-9.7s"/>
+  <circle class="s44a" cx="597.9" cy="0" r="2.00" opacity="0.72" style="animation-duration:8.7s;animation-delay:-7.0s"/>
+  <g class="s44g" style="animation-duration:12.8s;animation-delay:-7.0s;transform-box:fill-box;transform-origin:center"><text x="179.1" y="0" font-size="12.1" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s44g" style="animation-duration:11.6s;animation-delay:-10.9s;transform-box:fill-box;transform-origin:center"><text x="548.0" y="0" font-size="10.5" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  </g><!--snow:end-->
 </svg>

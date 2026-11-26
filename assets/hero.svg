@@ -115,4 +115,65 @@
     <rect x="0" y="434" width="1200" height="6" fill="url(#bar)"/>
     <rect class="sweep" x="0" y="434" width="260" height="6" fill="url(#shine)" opacity=".7"/>
   </g>
+
+  <!--snow:start--><style>
+    .s11a { animation: s11A linear infinite; }
+    .s11b { animation: s11B linear infinite; }
+    .s11g { animation: s11G linear infinite; }
+    @keyframes s11A { from { transform: translate(0px,-20px); } to { transform: translate(28px,460px); } }
+    @keyframes s11B { from { transform: translate(0px,-20px); } to { transform: translate(-28px,460px); } }
+    @keyframes s11G { from { transform: translate(0px,-30px) rotate(0deg); } to { transform: translate(18px,470px) rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .s11 { display: none; } }
+  </style>
+  <clipPath id="s11clip"><rect width="1200" height="440" rx="24"/></clipPath>
+  <g class="s11" clip-path="url(#s11clip)" fill="#ffffff" pointer-events="none">
+  <circle class="s11a" cx="542.9" cy="0" r="1.70" opacity="0.80" style="animation-duration:11.2s;animation-delay:-5.7s"/>
+  <circle class="s11b" cx="221.6" cy="0" r="1.62" opacity="0.63" style="animation-duration:14.1s;animation-delay:-1.3s"/>
+  <circle class="s11b" cx="170.2" cy="0" r="1.66" opacity="0.78" style="animation-duration:12.7s;animation-delay:-7.6s"/>
+  <circle class="s11a" cx="1157.7" cy="0" r="1.85" opacity="0.62" style="animation-duration:8.4s;animation-delay:-0.1s"/>
+  <circle class="s11b" cx="71.5" cy="0" r="1.10" opacity="0.40" style="animation-duration:7.3s;animation-delay:-3.4s"/>
+  <circle class="s11a" cx="709.2" cy="0" r="1.11" opacity="0.39" style="animation-duration:9.6s;animation-delay:-0.0s"/>
+  <circle class="s11b" cx="548.8" cy="0" r="1.25" opacity="0.85" style="animation-duration:16.0s;animation-delay:-13.4s"/>
+  <circle class="s11b" cx="378.3" cy="0" r="1.17" opacity="0.42" style="animation-duration:7.6s;animation-delay:-5.8s"/>
+  <circle class="s11a" cx="129.4" cy="0" r="1.27" opacity="0.29" style="animation-duration:7.2s;animation-delay:-4.9s"/>
+  <circle class="s11a" cx="251.7" cy="0" r="2.26" opacity="0.53" style="animation-duration:15.8s;animation-delay:-6.3s"/>
+  <circle class="s11a" cx="679.5" cy="0" r="1.12" opacity="0.65" style="animation-duration:10.0s;animation-delay:-3.1s"/>
+  <circle class="s11a" cx="1156.9" cy="0" r="2.01" opacity="0.32" style="animation-duration:9.2s;animation-delay:-0.9s"/>
+  <circle class="s11a" cx="557.9" cy="0" r="1.58" opacity="0.66" style="animation-duration:8.7s;animation-delay:-4.4s"/>
+  <circle class="s11b" cx="503.1" cy="0" r="1.41" opacity="0.49" style="animation-duration:15.9s;animation-delay:-0.0s"/>
+  <circle class="s11a" cx="1197.5" cy="0" r="0.83" opacity="0.36" style="animation-duration:16.0s;animation-delay:-9.6s"/>
+  <circle class="s11b" cx="50.5" cy="0" r="1.03" opacity="0.51" style="animation-duration:7.1s;animation-delay:-4.3s"/>
+  <circle class="s11b" cx="463.4" cy="0" r="0.92" opacity="0.38" style="animation-duration:12.7s;animation-delay:-0.2s"/>
+  <circle class="s11b" cx="446.0" cy="0" r="1.53" opacity="0.83" style="animation-duration:11.4s;animation-delay:-6.5s"/>
+  <circle class="s11a" cx="219.4" cy="0" r="1.05" opacity="0.80" style="animation-duration:14.4s;animation-delay:-3.6s"/>
+  <circle class="s11b" cx="190.2" cy="0" r="1.81" opacity="0.58" style="animation-duration:13.2s;animation-delay:-5.1s"/>
+  <circle class="s11a" cx="724.2" cy="0" r="1.47" opacity="0.31" style="animation-duration:7.3s;animation-delay:-7.1s"/>
+  <circle class="s11a" cx="887.8" cy="0" r="1.43" opacity="0.50" style="animation-duration:15.1s;animation-delay:-7.4s"/>
+  <circle class="s11a" cx="1115.1" cy="0" r="2.36" opacity="0.33" style="animation-duration:11.3s;animation-delay:-7.4s"/>
+  <circle class="s11b" cx="336.3" cy="0" r="2.27" opacity="0.37" style="animation-duration:7.1s;animation-delay:-1.9s"/>
+  <circle class="s11a" cx="298.9" cy="0" r="0.87" opacity="0.42" style="animation-duration:11.8s;animation-delay:-11.5s"/>
+  <circle class="s11a" cx="434.6" cy="0" r="2.23" opacity="0.84" style="animation-duration:12.9s;animation-delay:-8.9s"/>
+  <circle class="s11a" cx="707.9" cy="0" r="2.28" opacity="0.53" style="animation-duration:10.2s;animation-delay:-3.2s"/>
+  <circle class="s11a" cx="25.5" cy="0" r="1.82" opacity="0.54" style="animation-duration:13.6s;animation-delay:-4.3s"/>
+  <circle class="s11a" cx="90.3" cy="0" r="1.67" opacity="0.69" style="animation-duration:15.1s;animation-delay:-11.1s"/>
+  <circle class="s11b" cx="951.9" cy="0" r="2.26" opacity="0.46" style="animation-duration:13.2s;animation-delay:-11.9s"/>
+  <circle class="s11b" cx="1133.1" cy="0" r="0.85" opacity="0.55" style="animation-duration:7.1s;animation-delay:-4.7s"/>
+  <circle class="s11b" cx="699.2" cy="0" r="1.77" opacity="0.30" style="animation-duration:12.8s;animation-delay:-12.7s"/>
+  <circle class="s11a" cx="873.8" cy="0" r="1.42" opacity="0.69" style="animation-duration:12.2s;animation-delay:-5.4s"/>
+  <circle class="s11a" cx="622.4" cy="0" r="1.62" opacity="0.44" style="animation-duration:7.8s;animation-delay:-0.2s"/>
+  <circle class="s11b" cx="596.7" cy="0" r="1.78" opacity="0.80" style="animation-duration:9.3s;animation-delay:-0.1s"/>
+  <circle class="s11b" cx="171.9" cy="0" r="1.78" opacity="0.56" style="animation-duration:13.8s;animation-delay:-4.7s"/>
+  <circle class="s11a" cx="598.0" cy="0" r="1.19" opacity="0.49" style="animation-duration:9.3s;animation-delay:-5.9s"/>
+  <circle class="s11b" cx="1056.3" cy="0" r="1.42" opacity="0.60" style="animation-duration:9.8s;animation-delay:-1.3s"/>
+  <circle class="s11a" cx="420.9" cy="0" r="2.23" opacity="0.27" style="animation-duration:7.6s;animation-delay:-7.4s"/>
+  <circle class="s11b" cx="135.4" cy="0" r="1.55" opacity="0.81" style="animation-duration:14.5s;animation-delay:-5.5s"/>
+  <circle class="s11a" cx="806.6" cy="0" r="1.95" opacity="0.76" style="animation-duration:12.6s;animation-delay:-4.0s"/>
+  <circle class="s11a" cx="333.7" cy="0" r="1.77" opacity="0.66" style="animation-duration:9.5s;animation-delay:-3.4s"/>
+  <g class="s11g" style="animation-duration:12.7s;animation-delay:-9.8s;transform-box:fill-box;transform-origin:center"><text x="763.5" y="0" font-size="12.8" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s11g" style="animation-duration:18.2s;animation-delay:-17.9s;transform-box:fill-box;transform-origin:center"><text x="329.0" y="0" font-size="15.5" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s11g" style="animation-duration:15.8s;animation-delay:-10.1s;transform-box:fill-box;transform-origin:center"><text x="153.8" y="0" font-size="10.8" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s11g" style="animation-duration:12.8s;animation-delay:-10.5s;transform-box:fill-box;transform-origin:center"><text x="447.7" y="0" font-size="10.5" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s11g" style="animation-duration:17.8s;animation-delay:-9.5s;transform-box:fill-box;transform-origin:center"><text x="317.0" y="0" font-size="15.0" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  <g class="s11g" style="animation-duration:18.0s;animation-delay:-9.7s;transform-box:fill-box;transform-origin:center"><text x="62.0" y="0" font-size="11.6" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  </g><!--snow:end-->
 </svg>
