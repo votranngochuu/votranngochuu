@@ -2,7 +2,7 @@ name: Generate stats card
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # every day at 01:00 UTC
+    - cron: "17 */3 * * *"   # every 3 hours
   workflow_dispatch:       # run manually from the Actions tab
   push:
     branches: [main]
