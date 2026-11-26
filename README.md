@@ -1,4 +1,4 @@
-<a href="https://www.linkedin.com/in/huu-vo-tran-ngoc-719a4618b/">
+<a href="https://votranngochuu.github.io">
   <img src="./assets/hero.svg" width="100%" alt="Võ Trần Ngọc Hữu — Lead at Google Developer Groups on Campus FPTU · Junior AI Engineer at FPT Software HCM, F-Town 3" />
 </a>
 
@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://votranngochuu.github.io"><img src="https://img.shields.io/badge/%E2%9D%84%20Full%20portfolio-votranngochuu.github.io-4285F4?style=for-the-badge" alt="Open the full-screen portfolio" /></a>
   <a href="https://www.linkedin.com/in/huu-vo-tran-ngoc-719a4618b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
   <a href="mailto:votranngochuu@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <img src="https://komarev.com/ghpvc/?username=votranngochuu&style=for-the-badge&color=34A853&label=VISITORS" alt="Visitors" />
