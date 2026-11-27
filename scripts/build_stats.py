@@ -168,6 +168,7 @@ def fetch_repositories(token: str, login: str) -> tuple[int, dict[str, dict]]:
           totalCount
           pageInfo { hasNextPage endCursor }
           nodes {
+            name
             languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
               edges { size node { name color } }
             }
@@ -184,7 +185,12 @@ def fetch_repositories(token: str, login: str) -> tuple[int, dict[str, dict]]:
             raise ApiError("missing repositories")
         repos = user["repositories"]
         total = repos["totalCount"]
+        # The profile README and portfolio sites are mostly HTML/SVG; they say
+        # nothing about engineering skills, so keep them out of the language mix.
+        skip = {login.lower(), f"{login.lower()}.github.io", "portfolio"}
         for node in repos["nodes"] or []:
+            if (node.get("name") or "").lower() in skip:
+                continue
             for edge in (node.get("languages") or {}).get("edges") or []:
                 name = edge["node"]["name"]
                 entry = langs.setdefault(
