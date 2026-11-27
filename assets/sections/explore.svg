@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-label="Explore">
+  <title>Explore</title>
+  <defs>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/><stop offset=".6" stop-color="#8b5cf6" stop-opacity=".25"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .up { opacity: 0; animation: up .7s cubic-bezier(.2,.7,.2,1) .1s forwards; }
+    .up2 { animation-delay: .3s; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .line { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow 1.2s ease-out .4s forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+    .shine { animation: sweep 4s ease-in-out 1.6s infinite; opacity: 0; }
+    @keyframes sweep { 0% { opacity: 0; transform: translateX(0); } 10% { opacity: .8; } 60% { opacity: .8; transform: translateX(774px); } 61%,100% { opacity: 0; transform: translateX(774px); } }
+    .dot { transform-box: fill-box; transform-origin: center; animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse { 50% { transform: scale(1.5); opacity: .6; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .up { opacity: 1; } .line { transform: none; } }
+  </style>
+  <rect id="panel" width="1200" height="90" rx="16" fill="#0d1117"/>
+  <text class="up mono" x="40" y="40" font-size="15" font-weight="700" fill="#8b5cf6" letter-spacing="2">05 //</text>
+  <text class="up sans" x="102" y="42" font-size="28" font-weight="800" fill="#ffffff">Explore</text>
+  <text class="up up2 mono" x="40" y="70" font-size="13" fill="#8b949e">two editions, one story</text>
+  <circle class="dot" cx="1160" cy="34" r="5" fill="#8b5cf6"/>
+  <rect class="line" x="246" y="33" width="894" height="2" rx="1" fill="url(#ln)"/>
+  <rect class="shine" x="246" y="32" width="120" height="4" fill="url(#sh)"/>
+
+  <!--snow:start--><style>
+    .s105a { animation: s105A linear infinite; }
+    .s105b { animation: s105B linear infinite; }
+    .s105g { animation: s105G linear infinite; }
+    @keyframes s105A { from { transform: translate(0px,-20px); } to { transform: translate(28px,110px); } }
+    @keyframes s105B { from { transform: translate(0px,-20px); } to { transform: translate(-28px,110px); } }
+    @keyframes s105G { from { transform: translate(0px,-30px) rotate(0deg); } to { transform: translate(18px,120px) rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .s105 { display: none; } }
+  </style>
+  <clipPath id="s105clip"><rect width="1200" height="90" rx="16"/></clipPath>
+  <g class="s105" clip-path="url(#s105clip)" fill="#ffffff" pointer-events="none">
+  <circle class="s105b" cx="1053.7" cy="0" r="1.36" opacity="0.72" style="animation-duration:8.9s;animation-delay:-2.8s"/>
+  <circle class="s105b" cx="351.3" cy="0" r="2.16" opacity="0.35" style="animation-duration:8.6s;animation-delay:-0.9s"/>
+  <circle class="s105a" cx="421.5" cy="0" r="1.07" opacity="0.51" style="animation-duration:6.0s;animation-delay:-2.8s"/>
+  <circle class="s105b" cx="848.5" cy="0" r="1.09" opacity="0.44" style="animation-duration:8.7s;animation-delay:-8.7s"/>
+  <circle class="s105a" cx="73.4" cy="0" r="1.32" opacity="0.74" style="animation-duration:8.9s;animation-delay:-3.2s"/>
+  <circle class="s105b" cx="1171.6" cy="0" r="2.36" opacity="0.69" style="animation-duration:6.0s;animation-delay:-3.2s"/>
+  <circle class="s105a" cx="991.3" cy="0" r="1.62" opacity="0.60" style="animation-duration:9.0s;animation-delay:-7.1s"/>
+  <circle class="s105b" cx="680.9" cy="0" r="1.37" opacity="0.67" style="animation-duration:6.9s;animation-delay:-6.4s"/>
+  <circle class="s105a" cx="1022.7" cy="0" r="1.43" opacity="0.46" style="animation-duration:8.4s;animation-delay:-6.4s"/>
+  <circle class="s105a" cx="244.3" cy="0" r="1.78" opacity="0.36" style="animation-duration:7.9s;animation-delay:-3.4s"/>
+  <g class="s105g" style="animation-duration:9.6s;animation-delay:-3.4s;transform-box:fill-box;transform-origin:center"><text x="782.3" y="0" font-size="10.5" opacity=".55" text-anchor="middle" font-family="'Segoe UI Symbol','DejaVu Sans',sans-serif">❄</text></g>
+  </g><!--snow:end-->
+</svg>
